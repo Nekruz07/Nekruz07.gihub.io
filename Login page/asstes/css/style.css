@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins",sans-serif;
+}
+
+.container{
+	max-width: 100%;
+	height: 100vh;
+	background: url("../img/rasm11.png") no-repeat left;
+	background-size: contain;
+	background-color: #FFD1B0;
+}
+
+
+.box{
+	font-family: poppins;
+	width: 1366px;
+	height: 768px;
+	border-radius: 20px;
+	position: relative;
+	left: calc(50% - 1366px / 2);
+	top: calc(50% - 768px / 2);
+	padding: 30px 39px 77px;
+	backdrop-filter: blur(15px);
+	background: rgb(255, 255, 255, 0.2);
+}
+
+form {
+	width: 460px;
+	height: 610px;
+	border-radius: 20px;
+	position: absolute;
+	left: calc(50% - 520px / 2);
+	top: calc(50% - 570px / 2);
+	padding: 30px 39px 77px;
+	backdrop-filter:blur(10px);
+	margin-left: -328px;
+	margin-top: -20px;
+	font-size: 20px;
+	background: rgb(255, 255, 255, 0.2);
+
+}
+
+.title{
+	font-family: poppins;
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 48px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+input:not(#checked) {
+	width: 360px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align:;
+
+	padding: 0px 0 0 16px;
+	margin-bottom:20px;
+	margin-left: 10px;
+}
+
+input:placeholder{
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	color: #fff;
+}
+
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	width: 360px !important;
+	height: 40px !important;
+	border-radius: 5px;
+	font-family: poppins;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	line-height: 36px !important;
+	text-align: center !important;
+	border: none !important;
+	padding: 0 !important;
+	background: #DB5F19 !important;
+	cursor: pointer;
+	margin-right: 20px;
+	color: white;
+}
+
+.box2{
+	font-family: poppins;
+	width: 674.46px;
+	height: 593.36px;
+	background: url("../img/rasm12.png") no-repeat;
+	background-size: cover;
+	margin-left: 590px !important;
+	margin-top: 75px;
+}
+
+.nn1{
+	color: #AE4700;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.nn2{
+	border: none;
+}
+
+.nn3{
+	border: none;
+
+}
+.nn4{
+	margin-left: 241px;
+	color: #AE4700;
+	margin-bottom: 40px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+}
+.nn5{
+	font-family: poppins,sans-serif;
+	margin-left: 145px;
+	font-size: 10px;
+}
+
+.nn21{
+	font-family: poppins,sans-serif;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.nn7{
+	font-family: poppins;
+	padding: 80px 0 0 10px;
+	margin-left: -10px;
+	font-size: 10px;
+}
+
+.nn8{
+	font-family: poppins;
+	margin-left: 140px;
+	margin-top: -15px;
+	cursor: pointer;
+	color:  #AE4700;
+	font-size: 10px;
+}
+
+.box3{ 
+	width: 250px;
+	height: 35px;
+	background: url("../img/rasm22.png") no-repeat;
+	margin-top: 20px;
+	margin-left: 60px;
+}
